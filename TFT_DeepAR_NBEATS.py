@@ -69,7 +69,7 @@ def DL_analysis (
 
     completo = pd.read_csv(
         FILE,
-    )[[TARGET]]
+    )
 
     print(completo)
     

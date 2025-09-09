@@ -12,16 +12,13 @@ and generates predictions and metrics on time-series data.
 
 As an example, a public dataset containing healthy and pathological ECG waves was used. 10000 healthy samples were concatenated and used in order to generate the predictions and metrics shown below. The file containing the data is ```ecg_normal_filas_10000.csv```.
 
-![](DeepAR_preds.png "DeepAR predictions")
-![](NBEATS_preds.png "N-BEATS predictions")
-![](TFT_preds.png "TFT predictions")
+![](dl_forecasts.png "Forecasts")
 
 |MAPE|$R^2$  |MAE |RMSE|MBE  |Pearson|Model |
 |----|----|----|----|-----|-------|------|
-|0.66|0.94|0.13|0.25|-0.03|0.97   |NBEATS|
-|0.99|0.86|0.21|0.39|0.06 |0.93   |TFT   |
-|1.37|0.85|0.18|0.39|-0.04|0.93   |DeepAR|
-
+|1.96|0.89|0.19|0.33|-0.07|0.96   |NBEATS|
+|1.48|0.86|0.17|0.35|-0.004 |0.93   |DeepAR   |
+|4.34|0.85|0.22|0.39|-0.004|0.92   |TFT|
 
 ## Usage
 
